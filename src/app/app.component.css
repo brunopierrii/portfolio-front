@@ -304,8 +304,8 @@
 		top: 30%;
 		left: 50%;
 		transform: translate(-50%, -50%);
-		width: 200px;
-		height: 300px;
+		width: 100px;
+		height: 200px;
 	}
 	
 	#foto-perfil img {
@@ -324,7 +324,7 @@
 		/* size of the frame */
 		--b: 2px;
 		/* border thickness */
-		--w: 300px;
+		--w: 100px;
 		/* width of the image */
 		--c: rgba(0, 255, 0, 1);
 	
@@ -346,7 +346,7 @@
 		/* size of the frame */
 		--b: 2px;
 		/* border thickness */
-		--w: 450px;
+		--w: 150px;
 		/* width of the image */
 		--c: rgba(0, 255, 0, 1);
 	
@@ -365,12 +365,12 @@
 	#texto-header {
 		text-align: left;
 		position: absolute;
-		font-size: 2rem;
+		font-size: 1.3em;
 		font-weight: bold;
 		/* font-family: "firamonobold" !important; */
 		color: white;
 		line-height: 5rem;
-		top: 45%;
+		top: 40%;
 		left: 10%
 	}
 
