@@ -40,8 +40,3 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
-
-# files ignore
-
-/src/app.comoponent_copy.html
-/src/app.comoponent_copy.css
