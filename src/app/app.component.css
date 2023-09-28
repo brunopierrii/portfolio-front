@@ -2,13 +2,6 @@
 	height: 100vh;
 }
 
-#btn-group {
-	display: flex;
-	justify-content: end;
-	align-items: end;
-	width: 100%;
-}
-
 #logo {
 	color: lime;
 	font-family: "monospace";
