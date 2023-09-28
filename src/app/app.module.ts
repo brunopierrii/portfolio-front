@@ -9,6 +9,9 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatMenuModule } from '@angular/material/menu';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatDividerModule } from '@angular/material/divider';
 
 
 @NgModule({
@@ -23,7 +26,10 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatMenuModule,
+    FlexLayoutModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

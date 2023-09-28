@@ -1,13 +1,32 @@
-.example-spacer {
-	flex: 1 1 auto;
+#toolbar {
+	height: 100vh;
 }
 
-.example-drawer {
-	width: 20%;
+#btn-group {
+	display: flex;
+	justify-content: end;
+	align-items: end;
+	width: 100%;
 }
 
-.example-container {
+#logo {
+	color: lime;
+	font-family: "monospace";
+	font-size: 22px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.div-container {
 	width: 100%;
 	height: 100%;
-	border: 1px solid rgba(0, 0, 0, 0.5);
-  }
+	background-color: #5b5b5b;
+}
+
+@media (max-width: 599px) {
+	#logo {
+		display: flex;
+		justify-content: center;
+	}
+	
+}
