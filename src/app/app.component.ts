@@ -13,7 +13,7 @@ export class AppComponent {
     {
       label: 'Inicio',
       icon: 'house',
-      router: '/',
+      router: '/home',
     },
     {
       label: 'Projetos',

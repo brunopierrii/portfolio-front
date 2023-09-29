@@ -1,5 +1,6 @@
 <mat-toolbar class="mat-elevation-z10" fxLayout="row" color="basic">
-  <span fxFlex id="logo" (click)="location('/')">~$ Bruno Pierri</span>
+  <span fxFlex id="logo" (click)="location('/home')">&lt;<span style="font-size: 25px; font-weight: bold;">/</span>&gt; Bruno Pierri</span>
+  <!-- <span fxFlex id="logo" (click)="location('/home')"><mat-icon id="icon-logo">code</mat-icon> Bruno Pierri</span> -->
   
   <!-- buttons fora do menu responsivo -->
   <button mat-button routerLink="{{ item.router}}" *ngFor="let item of menuItems" fxHide.xs>
@@ -22,5 +23,9 @@
   </mat-menu>
 </mat-toolbar>
 
-<router-outlet></router-outlet>
+<div class="container-main">
+
+  <router-outlet></router-outlet>
+
+</div>
 

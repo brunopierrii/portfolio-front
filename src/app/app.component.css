@@ -4,8 +4,11 @@
 
 #logo {
 	color: lime;
-	font-family: "monospace";
-	font-size: 22px;
+	/* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+	margin-left: 2px;
+	font-family: "Candara";
+	/* font-family: "monospace"; */
+	font-size: 30px;
 	cursor: pointer;
 	text-decoration: none;
 }
