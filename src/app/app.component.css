@@ -1,22 +1,78 @@
+/* @import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url("https://fonts.googleapis.com/css?family=Raleway"); */
+
 #toolbar {
-	height: 100vh;
+	position: fixed;
+}
+
+.btn-desktop {
+	font-family: "Raleway", "Helvetica Neue", sans-serif;
 }
 
 #logo {
-	color: lime;
-	/* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+	height: 100%;
+	color: white;
+	font-family: "Audiowide", Geneva, Tahoma, sans-serif !important;
 	margin-left: 2px;
-	font-family: "Candara";
-	/* font-family: "monospace"; */
-	font-size: 30px;
+	font-size: 25px;
 	cursor: pointer;
 	text-decoration: none;
+	display: flex;
+}
+
+#logo-image {
+	width: 50px;
+	height: 50px;
+	float: left;
+	align-self: center;
+}
+
+#logo-text{
+	align-self: center;
+	float: left;
+	margin-left: 5px;
+}
+/* darkseagreen
+deepskyblue */
+
+#apresentation-text-name {	
+	color: cyan;
+}
+
+.apresentation-text {
+	text-align: center;
+	font-family: "Raleway", "Helvetica Neue", sans-serif;
+	font-size: 50px;
+	padding: 15px 10px;
+	line-height: 1;
 }
 
 .div-container {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+	text-shadow: 4px 3px 4px #000000;
+    /* background-color: #212121; */
+	
+}
+
+#img {
+	background-image: url('../assets/img/background_coffe.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 	width: 100%;
 	height: 100%;
-	background-color: #5b5b5b;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* position: relative; */
+	/* z-index: -5;
+	height: 90%; */
 }
 
 @media (max-width: 599px) {
@@ -24,5 +80,25 @@
 		display: flex;
 		justify-content: center;
 	}
-	
+	.apresentation-text {
+		text-align: center;
+		font-family: "Raleway", "Helvetica Neue", sans-serif;
+		font-size: 50px;
+		padding: 25px 20px;
+		line-height: 1;
+	}
 }
+
+/* @media (max-width: 599px) {
+	#logo {
+		display: flex;
+		justify-content: center;
+	}
+	
+	.apresentation-text {
+		text-align: center;
+		font-family: "Raleway", "Helvetica Neue", sans-serif;
+		font-size: 50px;
+		padding: 15px 10px;
+	}
+} */

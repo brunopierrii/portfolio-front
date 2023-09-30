@@ -1,9 +1,14 @@
-<mat-toolbar class="mat-elevation-z10" fxLayout="row" color="basic">
-  <span fxFlex id="logo" (click)="location('/home')">&lt;<span style="font-size: 25px; font-weight: bold;">/</span>&gt; Bruno Pierri</span>
+<mat-toolbar id="toolbar" class="mat-elevation-z10" fxLayout="row" color="basic">
+  <div fxFlex id="logo" (click)="location('/')">
+    <div id="logo-image">
+      <img style="width: 100%; height: 100%;" src="../assets/img/code.png" alt="code-logo">
+    </div>
+    <span id="logo-text">Bruno Pierri</span>
+  </div>
   <!-- <span fxFlex id="logo" (click)="location('/home')"><mat-icon id="icon-logo">code</mat-icon> Bruno Pierri</span> -->
-  
+
   <!-- buttons fora do menu responsivo -->
-  <button mat-button routerLink="{{ item.router}}" *ngFor="let item of menuItems" fxHide.xs>
+  <button mat-button class="btn-desktop" routerLink="{{ item.router}}" *ngFor="let item of menuItems" fxHide.xs>
     <mat-icon class="mr">{{item.icon}}</mat-icon>
     {{item.label}}
   </button>
@@ -23,9 +28,28 @@
   </mat-menu>
 </mat-toolbar>
 
-<div class="container-main">
 
-  <router-outlet></router-outlet>
 
+
+
+<div id="img">
+  <div class="div-container">
+
+    <div id="apresentation">
+      <div class="apresentation-text">
+        Olá, eu sou <span id="apresentation-text-name">Bruno Pierri</span>.
+      </div>
+      <div class="apresentation-text">
+        E sou um desenvolvedor web back-end.
+      </div>
+      <div class="apresentation-text">
+        Apaixonado por resolver problemas!
+      </div>
+      <div class="apresentation-text">
+        Conheça meu trabalho.
+      </div>
+    </div>
+  </div>
 </div>
 
+<router-outlet></router-outlet>
