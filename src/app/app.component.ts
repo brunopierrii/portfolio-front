@@ -16,14 +16,14 @@ export class AppComponent {
       router: '/',
     },
     {
-      label: 'Projetos',
-      icon: 'code',
-      router: '/'
-    },
-    {
       label: 'Sobre',
       icon: 'help',
       router: '/about'
+    },
+    {
+      label: 'Projetos',
+      icon: 'code',
+      router: '/'
     },
     {
       label: 'Contatos',
