@@ -69,7 +69,7 @@ deepskyblue */
 			#242424 5%,
 			#212121 10%);
 	background-size: 100px 100px;
-	animation: move-it 5s linear infinite;
+	animation: move-it 4s linear infinite;
 
 }
 
@@ -93,12 +93,12 @@ deepskyblue */
 		position: relative;
 		text-align: center;
 		font-family: "Raleway", "Helvetica Neue", sans-serif;
-		font-size: 50px;
+		font-size: 2.0em;
 		line-height: 1;
 	}
 }
 
-.btn {
+/* .btn {
 	border: 2px solid white;
 	background: transparent;
 	font-family: "Raleway", "Helvetica Neue", sans-serif;
@@ -112,12 +112,12 @@ deepskyblue */
 	transition: .3s;
 }
 
-.btn:hover{
+.btn:hover {
 	border: 2px solid #fff;
-	background-color: rgba(365,365,365,0.5);
+	background-color: rgba(365, 365, 365, 0.5);
 	cursor: pointer;
 	color: #292929;
 	opacity: .8;
 	transition: .3s;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+} */

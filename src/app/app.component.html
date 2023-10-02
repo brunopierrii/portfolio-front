@@ -5,7 +5,6 @@
     </div>
     <span id="logo-text">Bruno Pierri</span>
   </div>
-  <!-- <span fxFlex id="logo" (click)="location('/home')"><mat-icon id="icon-logo">code</mat-icon> Bruno Pierri</span> -->
 
   <!-- buttons fora do menu responsivo -->
   <button mat-button class="btn-desktop" routerLink="{{ item.router}}" *ngFor="let item of menuItems" fxHide.xs>
@@ -27,22 +26,5 @@
     </ng-container>
   </mat-menu>
 </mat-toolbar>
-
-
-<div class="div-container">
-
-  <div id="apresentation">
-    <div class="apresentation-text">
-      Olá, eu sou <span id="apresentation-text-name">Bruno Pierri</span>.
-    </div>
-
-    <div class="apresentation-text">
-      E sou um Desenvolvedor Web Back-end.
-    </div>
-  </div>
-
-  <button class="btn from-center">Conheça meu trabalho</button>
-
-</div>
 
 <router-outlet></router-outlet>

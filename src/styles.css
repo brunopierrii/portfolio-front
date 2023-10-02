@@ -37,3 +37,30 @@ body {
     height: 100%;
     background-color: #212121;
 }
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    background: transparent;
+    font-family: "Raleway", "Helvetica Neue", sans-serif;
+    color: white;
+    width: 250px;
+    height: 50px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    opacity: .6;
+    margin-top: 20px;
+    transition: .3s;
+}
+
+.btn:hover {
+    border: 2px solid #fff;
+    background-color: rgba(365, 365, 365, 0.5);
+    cursor: pointer;
+    color: #292929;
+    opacity: .8;
+    transition: .3s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
