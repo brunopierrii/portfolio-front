@@ -1,0 +1,80 @@
+#apresentation-text-name {
+    color: aquamarine;
+    font-weight: 800;
+    /* color: cyan; */
+}
+
+.apresentation-text {
+    position: relative;
+    text-align: center;
+    font-family: "Raleway", "Helvetica Neue", sans-serif;
+    font-size: 3.5em;
+    letter-spacing: 6px;
+    line-height: 1;
+}
+
+.div-container {
+    position: static;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-color: #212121;
+
+    background: repeating-linear-gradient(45deg,
+            #292929,
+            #262626 5%,
+            #242424 5%,
+            #212121 10%);
+    background-size: 100px 100px;
+    animation: move-it 4s linear infinite;
+
+}
+
+@keyframes move-it {
+    0% {
+        background-position: initial;
+    }
+
+    100% {
+        background-position: 100px 0px;
+    }
+}
+
+@media (max-width: 599px) {
+
+    .apresentation-text {
+        position: relative;
+        text-align: center;
+        font-family: "Raleway", "Helvetica Neue", sans-serif;
+        font-size: 2.0em;
+        line-height: 1;
+    }
+}
+
+/* .btn {
+    border: 2px solid white;
+    background: transparent;
+    font-family: "Raleway", "Helvetica Neue", sans-serif;
+    color: white;
+    width: 250px;
+    height: 50px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    opacity: .6;
+    margin-top: 20px;
+    transition: .3s;
+}
+
+.btn:hover {
+    border: 2px solid #fff;
+    background-color: rgba(365, 365, 365, 0.5);
+    cursor: pointer;
+    color: #292929;
+    opacity: .8;
+    transition: .3s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+} */
