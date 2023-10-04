@@ -61,6 +61,7 @@
     font-weight: bold;
     font-family: "Consolas";
     font-size: 3em;
+    margin-top: 15px;
 }
 
 .img {
@@ -100,6 +101,10 @@
 #logo-linux {
     width: 60px;
     padding: 10px 15px;
+}
+
+#btn-navigate {
+    margin-bottom: 10px;
 }
 
 @media (max-width: 599px) {
